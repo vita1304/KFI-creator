@@ -7,7 +7,7 @@ st.set_page_config(
     page_title="Key Financial Indicators (KFI)", page_icon="📊", layout="wide"
 )
 
-st.title("📊 Key Financial Indicators (KFI) — Універсальний аналізатор")
+st.title("📊 Key Financial Indicators (KFI) — Універсальний аналізатор - VF")
 st.caption(
     "Підтримує всі типи звітів НП(С)БО: повні (Форми № 1, 2), малі (№ 1-м, 2-м) та мікро (№ 1-мс, 2-мс)"
 )
@@ -21,7 +21,7 @@ with col_rate:
     eur_rate = st.number_input(
         "Курс UAH/EUR (input)",
         min_value=1.0,
-        value=48.44,
+        value=51.00,
         step=0.01,
         format="%.2f",
     )
